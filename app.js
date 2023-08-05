@@ -68,7 +68,7 @@ loadremote.addEventListener('click', function (event) {
     
     cardHolder.innerHTML = ``;
 
-    const BIN_ID = "64ce88adb89b1e2299cbe4b4";
+    const BIN_ID = "64ce92539d312622a38c747c";
     const binUrl = `https://api.jsonbin.io/v3/b/${BIN_ID}/latest`;
 
     fetch(binUrl)
