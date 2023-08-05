@@ -4,7 +4,7 @@ const cardData = [
     {
         imgurl: "https://picsum.photos/200/300",
         linkurl: "https://duckduckgo.com/",
-        alttext: "some text",
+        alttext: "image of nature",
         projectname: "My First Local Project",
         projectdescription: "Some Random text here."
     },
