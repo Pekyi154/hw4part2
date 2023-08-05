@@ -13,7 +13,7 @@ const cardData = [
         linkurl: "https://duckduckgo.com/",
         alttext: "some random image",
         projectname: "My Second Local Project",
-        projectdescription: "this image is coming from local storage"
+        projectdescription: "this image is coming from local storage!"
     },
     {
         imgurl: "https://source.unsplash.com/featured/200x300",
