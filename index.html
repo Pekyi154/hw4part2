@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <template id="profile-card-template">
+        <style>
+            .project-container {
+                border: 1px solid #ccc;
+                padding: 10px;
+                width: 300px;
+                margin-bottom: 1rem;
+                margin-right: 1rem;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin: 0;
+            }
+
+            p {
+                font-size: 14px;
+                margin: 0;
+            }
+
+        </style>
+        <div class="project-container">
+            <h2>
+                <slot name="project-name"></slot>
+            </h2>
+            <img />
+            <div class="slot-content">
+                <slot name="project-description"></slot>
+            </div>
+            <a>Read More</a>
+        </div>
+    </template>
+
+    <div id="title-header">
+        <h1>Select Project</h1>
+    </div>
+    <div id="card-holder"></div>
+    <div>
+        <button type="button" id="loadlocal">Load Local</button>
+        <button type="button" id="loadremote">Load Remote</button>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
