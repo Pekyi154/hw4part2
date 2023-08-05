@@ -6,28 +6,28 @@ const cardData = [
         linkurl: "https://duckduckgo.com/",
         alttext: "image of nature",
         projectname: "My First Local Project",
-        projectdescription: "Some Random text here."
+        projectdescription: "this image is coming from local storage"
     },
     {
         imgurl: "https://loremflickr.com/200/300",
         linkurl: "https://duckduckgo.com/",
-        alttext: "some text",
+        alttext: "some random image",
         projectname: "My Second Local Project",
-        projectdescription: "Some Random text here."
+        projectdescription: "this image is coming from local storage"
     },
     {
         imgurl: "https://source.unsplash.com/featured/200x300",
         linkurl: "https://duckduckgo.com/",
-        alttext: "some text",
+        alttext: "some picture",
         projectname: "My Third Local Project",
-        projectdescription: "Some Random text here."
+        projectdescription: "this image is coming from local storage"
     },
     {
         imgurl: "https://i.pickadummy.com/200x300",
         linkurl: "https://duckduckgo.com/",
-        alttext: "some text",
+        alttext: "wow you so pretty",
         projectname: "My Forth Local Project",
-        projectdescription: "Some Random text here."
+        projectdescription: "this image is coming from local storage"
     }
 ]
 
